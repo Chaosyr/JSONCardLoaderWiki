@@ -7,6 +7,7 @@ This page lists all resources available for JSONLoader which may be of use to yo
 * https://tinyurl.com/JLDRGramophoneTracks <-- Gramophone Tracks (`_gram.jldr2`)
 * https://tinyurl.com/JLDRLanguages <-- Languages (extension: `_language.jldr2`)
 * https://tinyurl.com/JLDRMasks <-- Masks (extension: `_mask.jldr2`)
+* https://tinyurl.com/JLDRRegions <-- Regions (extension: `_region.jldr2`)
 * https://tinyurl.com/JLDRSigils <-- Sigils (extension: `_sigil.jldr2`)
 * https://tinyurl.com/JLDRStarterDecks2 <-- Starter Decks (extension: `_deck.jldr2`)
 * https://tinyurl.com/JLDRTalkingCards <-- Talking Cards (extension: `_talk.jldr2`)
