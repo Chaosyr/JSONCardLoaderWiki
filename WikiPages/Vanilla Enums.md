@@ -2,25 +2,25 @@
 
 ## Meta Categories
 
-| Value              | Description                                                                              |
-|--------------------|------------------------------------------------------------------------------------------|
-| ChoiceNode         | Defines the card to be a choice option                                                   |
-| GBCPack            | Can be acquired by buying a card pack in act 2                                           |
-| GBCPlayable        | Can show up in the card catalogue in act 2                                               |
-| Part3Random        | Can show up as card from the Loot sigil                                                  |
-| Rare               | Defines the card to be rare                                                              |
-| TraderOffer        | Can show up at the trader in act 1                                                       |
-| AscensionUnlock    | This card by default is marked as learned when used within Kaycee's Mod of Inscryption.  |
-|--------------------|------------------------------------------------------------------------------------------|
-| Part1Rulebook      | Adds the sigil to the act 1 rulebook.                                                    |
-| Part1Modular       | Allows the sigil to appear on totems, Wolf Pelt trades and Cave Trial rewards.           |
-| Part3Rulebook      | Adds the sigil to the act 3 rulebook.                                                    |
-| Part3Modular       | Allows the sigil to appear in the Upgrade node in act 3.                                 |
-| BountyHunter       | Allows the sigil to appear on act 3 Bounty Hunter cards.                                 |
-| GrimoraRulebook    | Adds the sigil to the rulebook in Grimora’s part of Finale.                              |
-| MagnificusRulebook | Adds the sigil to the rulebook in Magnificus’ part of Finale.                            |
-| Part3BuildACard    | Allows the sigil to be chosen in the Build-A-Bot node in act 3.                          |
-| AscensionUnlocked  | This sigil by default is marked as learned when used within Kaycee's Mod of Inscryption. |
+| Value                | Description                                                                                |
+| -------------------- | ------------------------------------------------------------------------------------------ |
+| ChoiceNode           | Defines the card to be a choice option                                                     |
+| GBCPack              | Can be acquired by buying a card pack in act 2                                             |
+| GBCPlayable          | Can show up in the card catalogue in act 2                                                 |
+| Part3Random          | Can show up as card from the Loot sigil                                                    |
+| Rare                 | Defines the card to be rare                                                                |
+| TraderOffer          | Can show up at the trader in act 1                                                         |
+| AscensionUnlock      | This card by default is marked as learned when used within Kaycee's Mod of Inscryption.    |
+| -------------------- | ------------------------------------------------------------------------------------------ |
+| Part1Rulebook        | Adds the sigil to the act 1 rulebook.                                                      |
+| Part1Modular         | Allows the sigil to appear on totems, Wolf Pelt trades and Cave Trial rewards.             |
+| Part3Rulebook        | Adds the sigil to the act 3 rulebook.                                                      |
+| Part3Modular         | Allows the sigil to appear in the Upgrade node in act 3.                                   |
+| BountyHunter         | Allows the sigil to appear on act 3 Bounty Hunter cards.                                   |
+| GrimoraRulebook      | Adds the sigil to the rulebook in Grimora’s part of Finale.                                |
+| MagnificusRulebook   | Adds the sigil to the rulebook in Magnificus’ part of Finale.                              |
+| Part3BuildACard      | Allows the sigil to be chosen in the Build-A-Bot node in act 3.                            |
+| AscensionUnlocked    | This sigil by default is marked as learned when used within Kaycee's Mod of Inscryption.   |
 
 ## Sigil Power Level
 
@@ -149,113 +149,124 @@
 
 ## Abilities
 
-| Value                       | Description                                                                                                                                                                      |
-| --------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| ActivatedDealDamage         | When activated for 1 energy, deals 1 damage to opposing card                                                                                                                     |
-| ActivatedDrawSkeleton       | When activated for 1 bone, draws a skeleton                                                                                                                                      |
-| ActivatedEnergyToBones      | Converts energy to bones                                                                                                                                                         |
-| ActivatedHeal               | When activated for 2 bones, heals to full                                                                                                                                        |
-| ActivatedRandomPowerBone    | Unused                                                                                                                                                                           |
-| ActivatedRandomPowerEnergy  | When activated for 1 energy, gains a random attack boost between 1 and 6 (inclusive)                                                                                             |
-| ActivatedSacrificeDrawCards | When activated, draw 3 cards, then die                                                                                                                                           |
-| ActivatedStatsUp            | When activated for 2 bones, gain +1/+1                                                                                                                                           |
-| ActivatedStatsUpEnergy      | When activated for 3 energy, gains +1/+1                                                                                                                                         |
-| AllStrike                   | If there are any opposing cards, it will attack all of them, otherwise it will attack directly                                                                                   |
-| Apparition                  | Unused                                                                                                                                                                           |
-| BeesOnHit                   | When taking damage, will add a bee to your hand                                                                                                                                  |
-| BombSpawner                 | Spawns bombs on every empty board slot                                                                                                                                           |
-| BoneDigger                  | At end of turn, add 1 bone                                                                                                                                                       |
-| Brittle                     | After card attacks, it dies                                                                                                                                                      |
-| BuffEnemy                   | Increase opposing card's attack by 1                                                                                                                                             |
-| BuffGems                    | Increases attack of all gems by 1                                                                                                                                                |
-| BuffNeighbours              | Increase attack of adjacent cards by 1                                                                                                                                           |
-| CellBuffSelf                | When within circuit, increase attack by 2                                                                                                                                        |
-| CellDrawRandomCardOnDeath   | When within circuit, will draw a random card on death                                                                                                                            |
-| CellTriStrike               | When within circuit, gains trifurcated strike                                                                                                                                    |
-| ConduitBuffAttack           | When completing circuit, will increase attack of all cards in circuit by 1                                                                                                       |
-| ConduitEnergy               | When completing circuit, energy doesn't deplete                                                                                                                                  |
-| ConduitFactory              | When completing circuit, will spawn leepbots in all your available board slots at end of turn                                                                                    |
-| ConduitHeal                 | When completing circuit, will heal all cards in circuit at end of turn                                                                                                           |
-| ConduitNull                 | Will complete a circuit                                                                                                                                                          |
-| ConduitSpawnGems            | When completing circuit, will spawn random gems in all your available board slots at end of turn                                                                                 |
-| CorpseEater                 | When another card dies, this card will be played in its slot                                                                                                                     |
-| CreateBells                 | When played, will spawn bell cards in adjacent slots                                                                                                                             |
-| CreateDams                  | When played, will spawn dam cards in adjacent slots                                                                                                                              |
-| CreateEgg                   | When played, spawns a broken egg in the opposing slot, with a 10% chance to spawn a Raven Egg instead                                                                            |
-| DeathShield                 | When this card would take damage for the first time, it does not                                                                                                                 |
-| Deathtouch                  | When card deals damage to a card, it dies                                                                                                                                        |
-| DebuffEnemy                 | Decrease opposing card's attack by 1                                                                                                                                             |
-| DeleteFile                  | Nothing unless in archivists boss battle                                                                                                                                         |
-| DoubleDeath                 | When another card dies, it dies again                                                                                                                                            |
-| DoubleStrike                | Makes the card attack the slot across from it an additional time                                                                                                                 |
-| DrawAnt                     | When played, add an ant to your hand                                                                                                                                             |
-| DrawCopy                    | When played, will add a copy to your hand                                                                                                                                        |
-| DrawCopyOnDeath             | When dies, will add a copy to your hand                                                                                                                                          |
-| DrawNewHand                 | Discards your hand and draws 4 new cards                                                                                                                                         |
-| DrawRabbits                 | When played, will add a rabbit to your hand                                                                                                                                      |
-| DrawRandomCardOnDeath       | Will draw a random card with the Par3Random meta category on death                                                                                                               |
-| DrawVesselOnHit             | When taking damage, will draw a card from side deck                                                                                                                              |
-| DropRubyOnDeath             | When card dies, spawn a ruby mox in its place                                                                                                                                    |
-| EdaxioArms                  | Unused                                                                                                                                                                           |
-| EdaxioHead                  | Unused                                                                                                                                                                           |
-| EdaxioLegs                  | Unused                                                                                                                                                                           |
-| EdaxioTorso                 | Unused                                                                                                                                                                           |
-| Evolve                      | After a number of turns based on evolveParams, will turn into a card based on evolveParams                                                                                       |
-| ExplodeGems                 | When a card with the Gem trait dies, will cause them to explode                                                                                                                  |
-| ExplodeOnDeath              | When card dies, deals 10 damage to adjacent and opposing card                                                                                                                    |
-| ExplodingCorpse             | Unused                                                                                                                                                                           |
-| FileSizeDamage              | Nothing unless in archivist boss battle                                                                                                                                          |
-| Flying                      | When attacking, will attack directly                                                                                                                                             |
-| GainAttackOnKill            | Gets +1/+0 for the rest of the battle whenever it kills a creature                                                                                                               |
-| GainBattery                 | When played, increases energy and max energy by 1                                                                                                                                |
-| GainGemBlue                 | Counts as Blue gem cost                                                                                                                                                          |
-| GainGemGreen                | Counts as Green gem cost                                                                                                                                                         |
-| GainGemOrange               | Counts as Orange gem cost                                                                                                                                                        |
-| GainGemTriple               | Counts as all 3 gems when in play                                                                                                                                                |
-| GemDependant                | When played, and at start of turn, will die if you control no gems                                                                                                               |
-| GemsDraw                    | Unused                                                                                                                                                                           |
-| GuardDog                    | When a card is played opposite an empty slot, will move there                                                                                                                    |
-| Haunter                     | Unused                                                                                                                                                                           |
-| HydraEgg                    | Bizarre ability that will cause the card to transform into a Hydra if the player's deck contains cards with 1-5 attack, 1-5 health, and one of each of the game's default tribes |
-| IceCube                     | When card dies, spawns card in slot based on IceCubeParams                                                                                                                       |
-| LatchBrittle                | When card dies, you can choose another card to give Brittle                                                                                                                      |
-| LatchDeathShield            | When card dies, you can choose another card to give DeathShield                                                                                                                  |
-| LatchExplodeOnDeath         | When card dies, you can choose another card to give ExplodeOnDeath                                                                                                               |
-| Loot                        | When dealing damage, will draw cards equal to amount                                                                                                                             |
-| MadeOfStone                 | Invulnerable to Stinky and Deathtouch                                                                                                                                            |
-| Morsel                      | When sacrificed to summon another card, the card will add +1/+2 to the summoned card                                                                                             |
-| MoveBeside                  | Moves to closest space when a card is played                                                                                                                                     |
-| OpponentBones               | When any enemy card dies, gain 1 bone                                                                                                                                            |
-| PermaDeath                  | When card dies, it is removed from the deck                                                                                                                                      |
-| PreventAttack               | Prevents opposing card from attacking it                                                                                                                                         |
-| QuadrupleBones              | When dies, gain 4 bones                                                                                                                                                          |
-| RandomAbility               | When drawn, Sigil becomes a random sigil                                                                                                                                         |
-| RandomConsumable            | When played, will add a random consumable if you have less than 3                                                                                                                |
-| Reach                       | Will block attacking flying card                                                                                                                                                 |
-| Sacrificial                 | Can be sacrificed an unlimited number of times                                                                                                                                   |
-| Sentry                      | When a card is enters the slot in front of this card, it is dealt 1 damage                                                                                                       |
-| Sharp                       | When attacked, will deal 1 damage to attacker                                                                                                                                    |
-| ShieldGems                  | When played, will give cards with the Gem trait DeathShield                                                                                                                      |
-| Sinkhole                    | Unused                                                                                                                                                                           |
-| SkeletonStrafe              | Strafe but spawns skeleton in previous slot                                                                                                                                      |
-| Sniper                      | When attacking, you can choose the target slots                                                                                                                                  |
-| SplitStrike                 | When attacking, will attack slots adjacent to opposing slot                                                                                                                      |
-| SquirrelOrbit               | No effect on player cards                                                                                                                                                        |
-| SquirrelStrafe              | Strafe but spawns squirrel in previous slot                                                                                                                                      |
-| SteelTrap                   | When card dies, it kills the opposing card, and adds a pelt to your hand                                                                                                         |
-| Strafe                      | At end of turn, card moves                                                                                                                                                       |
-| StrafePush                  | Strafe but will move other cards with it                                                                                                                                         |
-| StrafeSwap                  | Strafe but will forcibly swap the adjacent card with its current position                                                                                                        |
-| Submerge                    | After attacking, will submerge, meaning it can't be attacked                                                                                                                     |
-| SubmergeSquid               | Waterborne but becomes random tentacle card on resurface                                                                                                                         |
-| SwapStats                   | When taking damage, will swap attack and health                                                                                                                                  |
-| TailOnHit                   | When attacked, will move and spawn a card in previous slot based on tailParams, then loses this ability.                                                                         |
-| Transformer                 | Same as evolve with different sigil icon                                                                                                                                         |
-| TripleBlood                 | Counts as 3 blood when sacrificed                                                                                                                                                |
-| TriStrike                   | When attacking, will attack opposing slot, and slots adjacent to opposing slot                                                                                                   |
-| Tutor                       | When played, you can choose a card in your deck to add to your hand                                                                                                              |
-| VirtualReality              | Unused                                                                                                                                                                           |
-| WhackAMole                  | When an empty slot is attacked, will move to that slot                                                                                                                           |
+The `Value` column contains the enum identifier used in JSON.
+The `Description` column explains the in-game behavior, and `In-Game Sigil` shows the name displayed on the card.
+Note that most abilities has values that dosen't match their sigil names.
+
+<style>
+table th:first-child, table td:first-child { white-space: nowrap; }
+table th:nth-child(2), table td:nth-child(2) { min-width: 360px; }
+table th:last-child, table td:last-child { min-width: 150px; text-align: center; vertical-align: middle; }
+table img { width: 64px; height: 64px; object-fit: contain; display: block; margin: 0 auto; }
+</style>
+
+| Value                         | In-Game Sigil            | Description                                                                                                                                                                      | Icon                                                                                                 |
+| ----------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `ActivatedDealDamage`         | Energy Gun               | When activated for 1 energy, deals 1 damage to opposing card                                                                                                                     | ![Energy Gun](https://ingoh.net/inscryption/textures/src/pixelability_activated_dealdamage.png)      |
+| `ActivatedDrawSkeleton`       | Disentomb                | When activated for 1 bone, draws a skeleton                                                                                                                                      | ![Disentomb](https://ingoh.net/inscryption/textures/src/pixelability_activated_drawskeleton.png)     |
+| `ActivatedEnergyToBones`      | Bonehorn                 | Converts energy to bones                                                                                                                                                         | ![Bonehorn](https://ingoh.net/inscryption/textures/src/pixelability_activated_energytobones.png)     |
+| `ActivatedHeal`               | -                        | When activated for 2 bones, heals to full                                                                                                                                        | ![-](https://ingoh.net/inscryption/textures/src/pixelability_activated_heal.png)                     |
+| `ActivatedRandomPowerBone`    | -                        | Unused                                                                                                                                                                           | -                                                                                                    |
+| `ActivatedRandomPowerEnergy`  | Power Dice               | When activated for 1 energy, gains a random attack boost between 1 and 6 (inclusive)                                                                                             | ![Power Dice](https://ingoh.net/inscryption/textures/src/pixelability_activated_dicerollenergy.png)  |
+| `ActivatedSacrificeDrawCards` | True Scholar             | When activated, draw 3 cards, then die                                                                                                                                           | ![True Scholar](https://ingoh.net/inscryption/textures/src/pixelability_activated_sacrificedraw.png) |
+| `ActivatedStatsUp`            | Enlarge                  | When activated for 2 bones, gain +1/+1                                                                                                                                           | ![Enlarge](https://ingoh.net/inscryption/textures/src/pixelability_activated_statsup.png)            |
+| `ActivatedStatsUpEnergy`      | Stimulate                | When activated for 3 energy, gains +1/+1                                                                                                                                         | ![Stimulate](https://ingoh.net/inscryption/textures/src/pixelability_activated_statsupenergy.png)    |
+| `AllStrike`                   | Omni Strike              | If there are any opposing cards, it will attack all of them, otherwise it will attack directly                                                                                   | ![Omni Strike](https://ingoh.net/inscryption/textures/src/ability_allstrike.png)                     |
+| `Apparition`                  | -                        | Unused                                                                                                                                                                           | ![-](https://ingoh.net/inscryption/textures/src/ability_apparition.png)                              |
+| `BeesOnHit`                   | Bees Within              | When taking damage, will add a bee to your hand                                                                                                                                  | ![Bees Within](https://ingoh.net/inscryption/textures/src/ability_beesonhit.png)                     |
+| `BombSpawner`                 | Bomb Spawner             | Spawns bombs on every empty board slot                                                                                                                                           | ![Bomb Spawner](https://ingoh.net/inscryption/textures/src/pixelability_bombspawner.png)             |
+| `BoneDigger`                  | Bone Digger              | At end of turn, add 1 bone                                                                                                                                                       | ![Bone Digger](https://ingoh.net/inscryption/textures/src/ability_bonedigger.png)                    |
+| `Brittle`                     | Brittle                  | After card attacks, it dies                                                                                                                                                      | ![Brittle](https://ingoh.net/inscryption/textures/src/ability_brittle.png)                           |
+| `BuffEnemy`                   | Annoying                 | Increase opposing card's attack by 1                                                                                                                                             | ![Annoying](https://ingoh.net/inscryption/textures/src/ability_buffenemy.png)                        |
+| `BuffGems`                    | Gem Animator             | Increases attack of all gems by 1                                                                                                                                                | ![Gem Animator](https://ingoh.net/inscryption/textures/src/ability_buffgems.png)                     |
+| `BuffNeighbours`              | Leader                   | Increase attack of adjacent cards by 1                                                                                                                                           | ![Leader](https://ingoh.net/inscryption/textures/src/ability_buffneighbours.png)                     |
+| `CellBuffSelf`                | Buff When Powered        | When within circuit, increase attack by 2                                                                                                                                        | ![Buff When Powered](https://ingoh.net/inscryption/textures/src/ability_cellbuffself.png)            |
+| `CellDrawRandomCardOnDeath`   | Gift Bearer              | When within circuit, will draw a random card on death                                                                                                                            | ![Gift Bearer](https://ingoh.net/inscryption/textures/src/ability_celldrawrandomcardondeath.png)     |
+| `CellTriStrike`               | Trifurcated When Powered | When within circuit, gains trifurcated strike                                                                                                                                    | ![Trifurcated When Powered](https://ingoh.net/inscryption/textures/src/ability_celltristrike.png)    |
+| `ConduitBuffAttack`           | Attack Conduit           | When completing circuit, will increase attack of all cards in circuit by 1                                                                                                       | ![Attack Conduit](https://ingoh.net/inscryption/textures/src/ability_conduitbuffattack.png)          |
+| `ConduitEnergy`               | Energy Conduit           | When completing circuit, energy doesn't deplete                                                                                                                                  | ![Energy Conduit](https://ingoh.net/inscryption/textures/src/pixelability_conduitenergy.png)         |
+| `ConduitFactory`              | Conduit Factory          | When completing circuit, will spawn leepbots in all your available board slots at end of turn                                                                                    | ![Conduit Factory](https://ingoh.net/inscryption/textures/src/pixelability_conduitspawner.png)       |
+| `ConduitHeal`                 | -                        | When completing circuit, will heal all cards in circuit at end of turn                                                                                                           | ![-](https://ingoh.net/inscryption/textures/src/pixelability_conduithealing.png)                     |
+| `ConduitNull`                 | Null Conduit             | Will complete a circuit                                                                                                                                                          | ![Null Conduit](https://ingoh.net/inscryption/textures/src/ability_conduitnull.png)                  |
+| `ConduitSpawnGems`            | Gem Spawn Conduit        | When completing circuit, will spawn random gems in all your available board slots at end of turn                                                                                 | ![Gem Spawn Conduit](https://ingoh.net/inscryption/textures/src/ability_conduitspawngems.png)        |
+| `CorpseEater`                 | Corpse Eater             | When another card dies, this card will be played in its slot                                                                                                                     | ![Corpse Eater](https://ingoh.net/inscryption/textures/src/ability_corpseeater.png)                  |
+| `CreateBells`                 | Bellist                  | When played, will spawn bell cards in adjacent slots                                                                                                                             | ![Bellist](https://ingoh.net/inscryption/textures/src/ability_createbells.png)                       |
+| `CreateDams`                  | Dam Builder              | When played, will spawn dam cards in adjacent slots                                                                                                                              | ![Dam Builder](https://ingoh.net/inscryption/textures/src/ability_createdams.png)                    |
+| `CreateEgg`                   | Brood Parasite           | When played, spawns a broken egg in the opposing slot, with a 10% chance to spawn a Raven Egg instead                                                                            | ![Brood Parasite](https://ingoh.net/inscryption/textures/src/ability_createegg.png)                  |
+| `DeathShield`                 | Armored                  | When this card would take damage for the first time, it does not                                                                                                                 | ![Armored](https://ingoh.net/inscryption/textures/src/ability_deathshield.png)                       |
+| `Deathtouch`                  | Touch of Death           | When card deals damage to a card, it dies                                                                                                                                        | ![Touch of Death](https://ingoh.net/inscryption/textures/src/ability_deathtouch.png)                 |
+| `DebuffEnemy`                 | Stinky                   | Decrease opposing card's attack by 1                                                                                                                                             | ![Stinky](https://ingoh.net/inscryption/textures/src/ability_debuffenemy.png)                        |
+| `DeleteFile`                  | Hostage File             | Nothing unless in archivists boss battle                                                                                                                                         | ![Hostage File](https://ingoh.net/inscryption/textures/src/ability_deletefile.png)                   |
+| `DoubleDeath`                 | Double Death             | When another card dies, it dies again                                                                                                                                            | ![Double Death](https://ingoh.net/inscryption/textures/src/pixelability_doubledeath.png)             |
+| `DoubleStrike`                | Double Strike            | Makes the card attack the slot across from it an additional time                                                                                                                 | ![Double Strike](https://ingoh.net/inscryption/textures/src/ability_doublestrike.png)                |
+| `DrawAnt`                     | Ant Spawner              | When played, add an ant to your hand                                                                                                                                             | ![Ant Spawner](https://ingoh.net/inscryption/textures/src/ability_drawant.png)                       |
+| `DrawCopy`                    | Fecundity                | When played, will add a copy to your hand                                                                                                                                        | ![Fecundity](https://ingoh.net/inscryption/textures/src/ability_drawcopy.png)                        |
+| `DrawCopyOnDeath`             | Unkillable               | When dies, will add a copy to your hand                                                                                                                                          | ![Unkillable](https://ingoh.net/inscryption/textures/src/ability_drawcopyondeath.png)                |
+| `DrawNewHand`                 | Handy                    | Discards your hand and draws 4 new cards                                                                                                                                         | ![Handy](https://ingoh.net/inscryption/textures/src/pixelability_drawnewhand.png)                    |
+| `DrawRabbits`                 | Rabbit Hole              | When played, will add a rabbit to your hand                                                                                                                                      | ![Rabbit Hole](https://ingoh.net/inscryption/textures/src/ability_drawrabbits.png)                   |
+| `DrawRandomCardOnDeath`       | Gift Bearer              | Will draw a random card with the Par3Random meta category on death                                                                                                               | ![Gift Bearer](https://ingoh.net/inscryption/textures/src/ability_drawrandomcardondeath.png)         |
+| `DrawVesselOnHit`             | Vessel Printer           | When taking damage, will draw a card from side deck                                                                                                                              | ![Vessel Printer](https://ingoh.net/inscryption/textures/src/ability_drawvesselonhit.png)            |
+| `DropRubyOnDeath`             | Ruby Heart               | When card dies, spawn a ruby mox in its place                                                                                                                                    | ![Ruby Heart](https://ingoh.net/inscryption/textures/src/ability_droprubyondeath.png)                |
+| `EdaxioArms`                  | Arms of Edaxio           | Unused                                                                                                                                                                           | ![Arms of Edaxio](https://ingoh.net/inscryption/textures/src/ability_edaxioarms.png)                 |
+| `EdaxioHead`                  | Head of Edaxio           | Unused                                                                                                                                                                           | ![Head of Edaxio](https://ingoh.net/inscryption/textures/src/ability_edaxiohead.png)                 |
+| `EdaxioLegs`                  | Legs of Edaxio           | Unused                                                                                                                                                                           | ![Legs of Edaxio](https://ingoh.net/inscryption/textures/src/ability_edaxiolegs.png)                 |
+| `EdaxioTorso`                 | Torso of Edaxio          | Unused                                                                                                                                                                           | ![Torso of Edaxio](https://ingoh.net/inscryption/textures/src/ability_edaxiotorso.png)               |
+| `Evolve`                      | Fledgling                | After a number of turns based on evolveParams, will turn into a card based on evolveParams                                                                                       | ![Fledgling](https://ingoh.net/inscryption/textures/src/ability_evolve.png)                          |
+| `ExplodeGems`                 | Gem Detonator            | When a card with the Gem trait dies, will cause them to explode                                                                                                                  | ![Gem Detonator](https://ingoh.net/inscryption/textures/src/ability_explodegems.png)                 |
+| `ExplodeOnDeath`              | Detonator                | When card dies, deals 10 damage to adjacent and opposing card                                                                                                                    | ![Detonator](https://ingoh.net/inscryption/textures/src/ability_explodeondeath.png)                  |
+| `ExplodingCorpse`             | -                        | Unused                                                                                                                                                                           | ![-](https://ingoh.net/inscryption/textures/src/ability_explodingcorpse.png)                         |
+| `FileSizeDamage`              | Dead Byte                | Nothing unless in archivist boss battle                                                                                                                                          | ![Dead Byte](https://ingoh.net/inscryption/textures/src/ability_filesizedamage.png)                  |
+| `Flying`                      | Airborne                 | When attacking, will attack directly                                                                                                                                             | ![Airborne](https://ingoh.net/inscryption/textures/src/ability_flying.png)                           |
+| `GainAttackOnKill`            | Blood Lust               | Gets +1/+0 for the rest of the battle whenever it kills a creature                                                                                                               | ![Blood Lust](https://ingoh.net/inscryption/textures/src/ability_gainattackonkill.png)               |
+| `GainBattery`                 | Battery Bearer           | When played, increases energy and max energy by 1                                                                                                                                | ![Battery Bearer](https://ingoh.net/inscryption/textures/src/ability_gainbattery.png)                |
+| `GainGemBlue`                 | Blue Mox                 | Counts as Blue gem cost                                                                                                                                                          | ![Blue Mox](https://ingoh.net/inscryption/textures/src/ability_gaingemblue.png)                      |
+| `GainGemGreen`                | Green Mox                | Counts as Green gem cost                                                                                                                                                         | ![Green Mox](https://ingoh.net/inscryption/textures/src/ability_gaingemgreen.png)                    |
+| `GainGemOrange`               | Orange Mox               | Counts as Orange gem cost                                                                                                                                                        | ![Orange Mox](https://ingoh.net/inscryption/textures/src/ability_gaingemorange.png)                  |
+| `GainGemTriple`               | Great Mox                | Counts as all 3 gems when in play                                                                                                                                                | ![Great Mox](https://ingoh.net/inscryption/textures/src/pixelability_gaingem_all.png)                |
+| `GemDependant`                | Gem Dependant            | When played, and at start of turn, will die if you control no gems                                                                                                               | ![Gem Dependant](https://ingoh.net/inscryption/textures/src/ability_gemdependant.png)                |
+| `GemsDraw`                    | Mental Gemnastics        | Unused                                                                                                                                                                           | ![Mental Gemnastics](https://ingoh.net/inscryption/textures/src/ability_gemsdraw.png)                |
+| `GuardDog`                    | Guardian                 | When a card is played opposite an empty slot, will move there                                                                                                                    | ![Guardian](https://ingoh.net/inscryption/textures/src/ability_guarddog.png)                         |
+| `Haunter`                     | -                        | Unused                                                                                                                                                                           | ![-](https://ingoh.net/inscryption/textures/src/ability_haunter.png)                                 |
+| `HydraEgg`                    | Finical Hatchling        | Bizarre ability that will cause the card to transform into a Hydra if the player's deck contains cards with 1-5 attack, 1-5 health, and one of each of the game's default tribes | ![Finical Hatchling](https://ingoh.net/inscryption/textures/src/ability_hydraegg.png)                |
+| `IceCube`                     | Frozen Away              | When card dies, spawns card in slot based on IceCubeParams                                                                                                                       | ![Frozen Away](https://ingoh.net/inscryption/textures/src/ability_icecube.png)                       |
+| `LatchBrittle`                | Brittle Latch            | When card dies, you can choose another card to give Brittle                                                                                                                      | ![Brittle Latch](https://ingoh.net/inscryption/textures/src/ability_latchbrittle.png)                |
+| `LatchDeathShield`            | LatchDeathShield         | When card dies, you can choose another card to give DeathShield                                                                                                                  | ![LatchDeathShield](https://ingoh.net/inscryption/textures/src/ability_latchdeathshield.png)         |
+| `LatchExplodeOnDeath`         | Bomb Latch               | When card dies, you can choose another card to give ExplodeOnDeath                                                                                                               | ![Bomb Latch](https://ingoh.net/inscryption/textures/src/ability_latchexplodeondeath.png)            |
+| `Loot`                        | Loot                     | When dealing damage, will draw cards equal to amount                                                                                                                             | ![Loot](https://ingoh.net/inscryption/textures/src/pixelability_loot.png)                            |
+| `MadeOfStone`                 | Made Of Stone            | Invulnerable to Stinky and Deathtouch                                                                                                                                            | ![Made Of Stone](https://ingoh.net/inscryption/textures/src/ability_madeofstone.png)                 |
+| `Morsel`                      | Morsel                   | When sacrificed to summon another card, the card will add +1/+2 to the summoned card                                                                                             | ![Morsel](https://ingoh.net/inscryption/textures/src/ability_morsel.png)                             |
+| `MoveBeside`                  | Clinger                  | Moves to closest space when a card is played                                                                                                                                     | ![Clinger](https://ingoh.net/inscryption/textures/src/ability_movebeside.png)                        |
+| `OpponentBones`               | Scavenger                | When any enemy card dies, gain 1 bone                                                                                                                                            | ![Scavenger](https://ingoh.net/inscryption/textures/src/ability_opponentbones.png)                   |
+| `PermaDeath`                  | Overclocked              | When card dies, it is removed from the deck                                                                                                                                      | ![Overclocked](https://ingoh.net/inscryption/textures/src/ability_permadeath.png)                    |
+| `PreventAttack`               | Repulsive                | Prevents opposing card from attacking it                                                                                                                                         | ![Repulsive](https://ingoh.net/inscryption/textures/src/ability_preventattack.png)                   |
+| `QuadrupleBones`              | Bone King                | When dies, gain 4 bones                                                                                                                                                          | ![Bone King](https://ingoh.net/inscryption/textures/src/ability_quadruplebones.png)                  |
+| `RandomAbility`               | Amorphous                | When drawn, Sigil becomes a random sigil                                                                                                                                         | ![Amorphous](https://ingoh.net/inscryption/textures/src/ability_randomability.png)                   |
+| `RandomConsumable`            | Trinket Bearer           | When played, will add a random consumable if you have less than 3                                                                                                                | ![Trinket Bearer](https://ingoh.net/inscryption/textures/src/ability_randomconsumable.png)           |
+| `Reach`                       | Mighty Leap              | Will block attacking flying card                                                                                                                                                 | ![Mighty Leap](https://ingoh.net/inscryption/textures/src/ability_reach.png)                         |
+| `Sacrificial`                 | Many Lives               | Can be sacrificed an unlimited number of times                                                                                                                                   | ![Many Lives](https://ingoh.net/inscryption/textures/src/ability_sacrificial.png)                    |
+| `Sentry`                      | Sentry                   | When a card is enters the slot in front of this card, it is dealt 1 damage                                                                                                       | ![Sentry](https://ingoh.net/inscryption/textures/src/ability_sentry.png)                             |
+| `Sharp`                       | Sharp Quills             | When attacked, will deal 1 damage to attacker                                                                                                                                    | ![Sharp Quills](https://ingoh.net/inscryption/textures/src/ability_sharp.png)                        |
+| `ShieldGems`                  | Gem Guardian             | When played, will give cards with the Gem trait DeathShield                                                                                                                      | ![Gem Guardian](https://ingoh.net/inscryption/textures/src/ability_shieldgems.png)                   |
+| `Sinkhole`                    | -                        | Unused                                                                                                                                                                           | ![-](https://ingoh.net/inscryption/textures/src/ability_sinkhole.png)                                |
+| `SkeletonStrafe`              | Skeleton Crew            | Strafe but spawns skeleton in previous slot                                                                                                                                      | ![Skeleton Crew](https://ingoh.net/inscryption/textures/src/pixelability_skeletonstrafe.png)         |
+| `Sniper`                      | Sniper                   | When attacking, you can choose the target slots                                                                                                                                  | ![Sniper](https://ingoh.net/inscryption/textures/src/ability_sniper.png)                             |
+| `SplitStrike`                 | Bifurcated Strike        | When attacking, will attack slots adjacent to opposing slot                                                                                                                      | ![Bifurcated Strike](https://ingoh.net/inscryption/textures/src/ability_splitstrike.png)             |
+| `SquirrelOrbit`               | Tidal Lock               | No effect on player cards                                                                                                                                                        | ![Tidal Lock](https://ingoh.net/inscryption/textures/src/ability_squirrelorbit.png)                  |
+| `SquirrelStrafe`              | Squirrel Shedder         | Strafe but spawns squirrel in previous slot                                                                                                                                      | ![Squirrel Shedder](https://ingoh.net/inscryption/textures/src/pixelability_squirrelstrafe.png)      |
+| `SteelTrap`                   | Steel Trap               | When card dies, it kills the opposing card, and adds a pelt to your hand                                                                                                         | ![Steel Trap](https://ingoh.net/inscryption/textures/src/ability_steeltrap.png)                      |
+| `Strafe`                      | Sprinter                 | At end of turn, card moves                                                                                                                                                       | ![Sprinter](https://ingoh.net/inscryption/textures/src/ability_strafe.png)                           |
+| `StrafePush`                  | Hefty                    | Strafe but will move other cards with it                                                                                                                                         | ![Hefty](https://ingoh.net/inscryption/textures/src/ability_strafepush.png)                          |
+| `StrafeSwap`                  | Rampager                 | Strafe but will forcibly swap the adjacent card with its current position                                                                                                        | ![Rampager](https://ingoh.net/inscryption/textures/src/ability_strafeswap.png)                       |
+| `Submerge`                    | Waterborne               | After attacking, will submerge, meaning it can't be attacked                                                                                                                     | ![Waterborne](https://ingoh.net/inscryption/textures/src/ability_submerge.png)                       |
+| `SubmergeSquid`               | Kraken Waterborne        | Waterborne but becomes random tentacle card on resurface                                                                                                                         | ![Kraken Waterborne](https://ingoh.net/inscryption/textures/src/ability_submergesquid.png)           |
+| `SwapStats`                   | Swapper                  | When taking damage, will swap attack and health                                                                                                                                  | ![Swapper](https://ingoh.net/inscryption/textures/src/ability_swapstats.png)                         |
+| `TailOnHit`                   | Loose Tail               | When attacked, will move and spawn a card in previous slot based on tailParams, then loses this ability.                                                                         | ![Loose Tail](https://ingoh.net/inscryption/textures/src/ability_tailonhit.png)                      |
+| `Transformer`                 | Transformer              | Same as evolve with different sigil icon                                                                                                                                         | ![Transformer](https://ingoh.net/inscryption/textures/src/ability_transformer.png)                   |
+| `TripleBlood`                 | Worthy Sacrifice         | Counts as 3 blood when sacrificed                                                                                                                                                | ![Worthy Sacrifice](https://ingoh.net/inscryption/textures/src/ability_tripleblood.png)              |
+| `TriStrike`                   | Trifurcated Strike       | When attacking, will attack opposing slot, and slots adjacent to opposing slot                                                                                                   | ![Trifurcated Strike](https://ingoh.net/inscryption/textures/src/ability_tristrike.png)              |
+| `Tutor`                       | Hoarder                  | When played, you can choose a card in your deck to add to your hand                                                                                                              | ![Hoarder](https://ingoh.net/inscryption/textures/src/ability_tutor.png)                             |
+| `VirtualReality`              | -                        | Unused                                                                                                                                                                           | ![-](https://ingoh.net/inscryption/textures/src/ability_virtualreality.png)                          |
+| `WhackAMole`                  | Burrower                 | When an empty slot is attacked, will move to that slot                                                                                                                           | ![Burrower](https://ingoh.net/inscryption/textures/src/ability_whackamole.png)                       |
 
 ## Vanilla Appearance Behaviour
 
@@ -282,7 +293,7 @@
 ## Regions
 
 | Region             | Description                    |
-|--------------------|--------------------------------|
+| ------------------ | ------------------------------ |
 | Alpine             | This is The Trappers Region    |
 | Forest             | This is The Prospectors Region |
 | Midnight           | This is Leshy's area in ACT 1. |
@@ -293,7 +304,7 @@
 ## Languages
 
 | Suffix | Language              |
-|--------|-----------------------|
+| ------ | --------------------- |
 | fr     | French                |
 | it     | Italian               |
 | de     | German                |
@@ -309,7 +320,7 @@
 ## Mask Types
 
 | Value      | Description |
-|------------|-------------|
+| ---------- | ----------- |
 | Prospector | 0           |
 | Woodcarver | 1           |
 | Angler     | 2           |
@@ -320,7 +331,7 @@
 ## Mask Model Types
 
 | Value      | Description |
-|------------|-------------|
+| ---------- | ----------- |
 | Prospector | 1           |
 | Woodcarver | 2           |
 | Angler     | 3           |
@@ -333,7 +344,7 @@
 ## AscensionChallenge
 
 | Value             | Description                                                                     |
-|-------------------|---------------------------------------------------------------------------------|
+| ----------------- | ------------------------------------------------------------------------------- |
 | AllTotems         | The All Totem Battles Challenge                                                 |
 | BossTotems        | The Bosses have a Totem Challenge                                               |
 | BaseDifficulty    | The Increase Difficulty Challenge                                               |
@@ -353,7 +364,7 @@
 ## CardChoicesType
 
 | Value     | Description                       |
-|-----------|-----------------------------------|
+| --------- | --------------------------------- |
 | Random    | The Random Card Choices Type      |
 | Cost      | The Cost Based Card Choices Type  |
 | Tribe     | The Tribe Based Card Choices Type |
@@ -362,7 +373,7 @@
 ## CursorType
 
 | Value      |
-|------------|
+| ---------- |
 | Default    |
 | Sacrifice  |
 | Place      |
@@ -388,7 +399,7 @@
 ## DiskCardWeapon
 
 | Value    |
-|----------|
+| -------- |
 | Default  |
 | Sniper   |
 | Turret   |
@@ -399,7 +410,7 @@
 ## Emotion
 
 | Value    |
-|----------|
+| -------- |
 | Laughter |
 | Anger    |
 | Quiet    |
@@ -409,7 +420,7 @@
 ## EyeBallState
 
 | Value   |
-|---------|
+| ------- |
 | Default |
 | Missing |
 | Wizard  |
@@ -418,7 +429,7 @@
 ## FillerAbilities
 
 | Value       |
-|-------------|
+| ----------- |
 | None        |
 | Banding     |
 | Skulduggery |
@@ -426,7 +437,7 @@
 ## GameState
 
 | Value               |
-|---------------------|
+| ------------------- |
 | CardBattle          |
 | Map                 |
 | FirstPerson3D       |
@@ -435,7 +446,7 @@
 ## ItemType
 
 | Value      |
-|------------|
+| ---------- |
 | Consumable |
 | Upgrade    |
 | Survival   |
@@ -445,7 +456,7 @@
 ## MechanicsConcept
 
 | Value                       |
-|-----------------------------|
+| --------------------------- |
 | Bones                       |
 | BuildingTotems              |
 | TribeBasedCardChoice        |
@@ -514,7 +525,7 @@
 ## MenuAction
 
 | Value             |
-|-------------------|
+| ----------------- |
 | NewGame           |
 | Continue          |
 | Options           |
@@ -530,7 +541,7 @@
 ## PageRangeType
 
 | Value     |
-|-----------|
+| --------- |
 | Abilities |
 | Cards     |
 | Unique    |
@@ -541,7 +552,7 @@
 ## ResourceType
 
 | Value  |
-|--------|
+| ------ |
 | Blood  |
 | Bone   |
 | Energy |
@@ -550,7 +561,7 @@
 ## SidePileFigurine
 
 | Value        |
-|--------------|
+| ------------ |
 | Squirrel     |
 | Bee          |
 | Aquasquirrel |
@@ -558,7 +569,7 @@
 ## StoryEvent
 
 | Value                            |
-|----------------------------------|
+| -------------------------------- |
 | BasicTutorialCompleted           |
 | TutorialRunCompleted             |
 | SacrificedStoatInTutorial        |
@@ -736,13 +747,13 @@
 ## TotemEffect
 
 | Value           |
-|-----------------|
+| --------------- |
 | CardGainAbility |
 
 ## TraderTarotType
 
 | Value      |
-|------------|
+| ---------- |
 | TheFool    |
 | TheTower   |
 | TheEmpress |
@@ -752,7 +763,7 @@
 ## Trigger
 
 | Value                   |
-|-------------------------|
+| ----------------------- |
 | Upkeep                  |
 | Drawn                   |
 | PlayFromHand            |
@@ -778,7 +789,7 @@
 ## View
 
 | Value                   |
-|-------------------------|
+| ----------------------- |
 | Hand                    |
 | Default                 |
 | DeckSelection           |
@@ -837,6 +848,6 @@
 ## ViewLockState
 
 | Value    |
-|----------|
+| -------- |
 | Locked   |
 | Unlocked |
