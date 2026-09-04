@@ -150,8 +150,11 @@
 ## Abilities
 
 The `Value` column contains the enum identifier used in JSON.
+
 The `Description` column explains the in-game behavior, and `In-Game Sigil` shows the name displayed on the card.
-Note that most abilities has values that dosen't match their sigil names.
+
+
+Note that most abilities have  values that dosen't match their sigil names.
 
 
 
