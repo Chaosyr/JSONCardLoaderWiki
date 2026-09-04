@@ -153,13 +153,7 @@ The `Value` column contains the enum identifier used in JSON.
 The `Description` column explains the in-game behavior, and `In-Game Sigil` shows the name displayed on the card.
 Note that most abilities has values that dosen't match their sigil names.
 
-<style>
-table th:first-child, table td:first-child { min-width: 110px; text-align: center; vertical-align: middle; }
-table th:nth-child(2), table td:nth-child(2) { white-space: nowrap; }
-table th:nth-child(3), table td:nth-child(3) { min-width: 150px; }
-table th:last-child, table td:last-child { min-width: 360px; }
-table img { width: 64px; height: 64px; object-fit: contain; display: block; margin: 0 auto; }
-</style>
+
 
 | Icon                                                                                                 | Value                         | In-Game Sigil            | Description                                                                                                                                                                      |
 | ---------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
