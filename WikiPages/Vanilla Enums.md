@@ -25,7 +25,7 @@
 ## Sigil Power Level
 
 | Event                    | Power Levels | Info                                                                                |
-|--------------------------|--------------|-------------------------------------------------------------------------------------|
+| ------------------------ | ------------ | ----------------------------------------------------------------------------------- |
 | Cave Trial               | 0 to 5       | If you want your sigil to appear on the Cave Trial rewards                          |
 | Totems                   | 0 to 5       | If you want your sigil to appear on totems                                          |
 | Prospector               | 0 to 5       | If you want your sigil to appear on Insect cards from the Prospector node           |
@@ -45,7 +45,7 @@
 ## Complexity
 
 | Value        | Description                          |
-|--------------|--------------------------------------|
+| ------------ | ------------------------------------ |
 | Vanilla      | Will always be a learned card        |
 | Simple       | Will always be an unlocked card      |
 | Intermediate | Will only be unlocked after tutorial |
@@ -54,7 +54,7 @@
 ## Temple
 
 | Value  | Description                                      |
-|--------|--------------------------------------------------|
+| ------ | ------------------------------------------------ |
 | Nature | Will show up in act 1 and be in Beast card packs |
 | Undead | Will show up in Undead card packs                |
 | Tech   | Will show up in act 3 and Tech card packs        |
@@ -63,7 +63,7 @@
 ## GemType
 
 | Value  |
-|--------|
+| ------ |
 | Blue   |
 | Green  |
 | Orange |
@@ -71,7 +71,7 @@
 ## SpecialStatIcon
 
 | Value              | Description                                                          |
-|--------------------|----------------------------------------------------------------------|
+| ------------------ | -------------------------------------------------------------------- |
 | Ants               | Displays the Ants icon for the cards attack                          |
 | Bell               | Displays the Bell icon for the cards attack                          |
 | Bones              | Displays the Lammergeier's Bone icon for the cards attack and health |
@@ -83,7 +83,7 @@
 ## Tribe
 
 | Value    |
-|----------|
+| -------- |
 | Bird     |
 | Canine   |
 | Hooved   |
@@ -94,7 +94,7 @@
 ## Trait
 
 | Value                      | Description                                                                                                                     |
-|----------------------------|---------------------------------------------------------------------------------------------------------------------------------|
+| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 | Ant                        | Will increase the attack of cards with the Ant special ability                                                                  |
 | Bear                       | Unused                                                                                                                          |
 | Blind                      | Unused                                                                                                                          |
@@ -121,7 +121,7 @@
 ## SpecialTriggeredAbility
 
 | Value              | Description                                                                                       |
-|--------------------|---------------------------------------------------------------------------------------------------|
+| ------------------ | ------------------------------------------------------------------------------------------------- |
 | Ant                | Increases cards attack by 1 for each card with ant trait on the board                             |
 | BellProximity      | Damage is equal to 4 - the distance from the bell (adjacent is distance 0)                        |
 | BountyHunter       | Functions like act 3 Bounty Hunters (only works for opponent)                                     |
@@ -266,7 +266,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Vanilla Appearance Behaviour
 
 | Value                 | Description                                              |
-|-----------------------|----------------------------------------------------------|
+| --------------------- | -------------------------------------------------------- |
 | AddSnelkDecals        | Cycles through the Base Games Long Elk Decals.           |
 | AlternatingBloodDecal | Renders card with blood decals                           |
 | AnimatedPortrait      | Used for animated portraits                              |
