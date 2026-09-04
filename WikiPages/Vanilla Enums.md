@@ -2,30 +2,30 @@
 
 ## Meta Categories
 
-| Value               | Description                                                                                |
-| --------------------| ------------------------------------------------------------------------------------------ |
-| ChoiceNode          | Defines the card to be a choice option                                                     |
-| GBCPack             | Can be acquired by buying a card pack in act 2                                             |
-| GBCPlayable         | Can show up in the card catalogue in act 2                                                 |
-| Part3Random         | Can show up as card from the Loot sigil                                                    |
-| Rare                | Defines the card to be rare                                                                |
-| TraderOffer         | Can show up at the trader in act 1                                                         |
-| AscensionUnlock     | This card by default is marked as learned when used within Kaycee's Mod of Inscryption.    |
-| --------------------| ------------------------------------------------------------------------------------------ |
-| Part1Rulebook       | Adds the sigil to the act 1 rulebook.                                                      |
-| Part1Modular        | Allows the sigil to appear on totems, Wolf Pelt trades and Cave Trial rewards.             |
-| Part3Rulebook       | Adds the sigil to the act 3 rulebook.                                                      |
-| Part3Modular        | Allows the sigil to appear in the Upgrade node in act 3.                                   |
-| BountyHunter        | Allows the sigil to appear on act 3 Bounty Hunter cards.                                   |
-| GrimoraRulebook     | Adds the sigil to the rulebook in Grimora’s part of Finale.                                |
-| MagnificusRulebook  | Adds the sigil to the rulebook in Magnificus’ part of Finale.                              |
-| Part3BuildACard     | Allows the sigil to be chosen in the Build-A-Bot node in act 3.                            |
-| AscensionUnlocked   | This sigil by default is marked as learned when used within Kaycee's Mod of Inscryption.   |
+| Value              | Description                                                                              |
+|--------------------|------------------------------------------------------------------------------------------|
+| ChoiceNode         | Defines the card to be a choice option                                                   |
+| GBCPack            | Can be acquired by buying a card pack in act 2                                           |
+| GBCPlayable        | Can show up in the card catalogue in act 2                                               |
+| Part3Random        | Can show up as card from the Loot sigil                                                  |
+| Rare               | Defines the card to be rare                                                              |
+| TraderOffer        | Can show up at the trader in act 1                                                       |
+| AscensionUnlock    | This card by default is marked as learned when used within Kaycee's Mod of Inscryption.  |
+|--------------------|------------------------------------------------------------------------------------------|
+| Part1Rulebook      | Adds the sigil to the act 1 rulebook.                                                    |
+| Part1Modular       | Allows the sigil to appear on totems, Wolf Pelt trades and Cave Trial rewards.           |
+| Part3Rulebook      | Adds the sigil to the act 3 rulebook.                                                    |
+| Part3Modular       | Allows the sigil to appear in the Upgrade node in act 3.                                 |
+| BountyHunter       | Allows the sigil to appear on act 3 Bounty Hunter cards.                                 |
+| GrimoraRulebook    | Adds the sigil to the rulebook in Grimora’s part of Finale.                              |
+| MagnificusRulebook | Adds the sigil to the rulebook in Magnificus’ part of Finale.                            |
+| Part3BuildACard    | Allows the sigil to be chosen in the Build-A-Bot node in act 3.                          |
+| AscensionUnlocked  | This sigil by default is marked as learned when used within Kaycee's Mod of Inscryption. |
 
 ## Sigil Power Level
 
 | Event                    | Power Levels | Info                                                                                |
-| ------------------------ | ------------ | ----------------------------------------------------------------------------------- |
+|--------------------------|--------------|-------------------------------------------------------------------------------------|
 | Cave Trial               | 0 to 5       | If you want your sigil to appear on the Cave Trial rewards                          |
 | Totems                   | 0 to 5       | If you want your sigil to appear on totems                                          |
 | Prospector               | 0 to 5       | If you want your sigil to appear on Insect cards from the Prospector node           |
@@ -45,7 +45,7 @@
 ## Complexity
 
 | Value        | Description                          |
-| ------------ | ------------------------------------ |
+|--------------|--------------------------------------|
 | Vanilla      | Will always be a learned card        |
 | Simple       | Will always be an unlocked card      |
 | Intermediate | Will only be unlocked after tutorial |
@@ -54,7 +54,7 @@
 ## Temple
 
 | Value  | Description                                      |
-| ------ | ------------------------------------------------ |
+|--------|--------------------------------------------------|
 | Nature | Will show up in act 1 and be in Beast card packs |
 | Undead | Will show up in Undead card packs                |
 | Tech   | Will show up in act 3 and Tech card packs        |
@@ -63,7 +63,7 @@
 ## GemType
 
 | Value  |
-| ------ |
+|--------|
 | Blue   |
 | Green  |
 | Orange |
@@ -71,7 +71,7 @@
 ## SpecialStatIcon
 
 | Value              | Description                                                          |
-| ------------------ | -------------------------------------------------------------------- |
+|--------------------|----------------------------------------------------------------------|
 | Ants               | Displays the Ants icon for the cards attack                          |
 | Bell               | Displays the Bell icon for the cards attack                          |
 | Bones              | Displays the Lammergeier's Bone icon for the cards attack and health |
@@ -83,7 +83,7 @@
 ## Tribe
 
 | Value    |
-| -------- |
+|----------|
 | Bird     |
 | Canine   |
 | Hooved   |
@@ -94,7 +94,7 @@
 ## Trait
 
 | Value                      | Description                                                                                                                     |
-| -------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+|----------------------------|---------------------------------------------------------------------------------------------------------------------------------|
 | Ant                        | Will increase the attack of cards with the Ant special ability                                                                  |
 | Bear                       | Unused                                                                                                                          |
 | Blind                      | Unused                                                                                                                          |
@@ -121,7 +121,7 @@
 ## SpecialTriggeredAbility
 
 | Value              | Description                                                                                       |
-| ------------------ | ------------------------------------------------------------------------------------------------- |
+|--------------------|---------------------------------------------------------------------------------------------------|
 | Ant                | Increases cards attack by 1 for each card with ant trait on the board                             |
 | BellProximity      | Damage is equal to 4 - the distance from the bell (adjacent is distance 0)                        |
 | BountyHunter       | Functions like act 3 Bounty Hunters (only works for opponent)                                     |
@@ -153,13 +153,10 @@ The `Value` column contains the enum identifier used in JSON.
 
 The `Description` column explains the in-game behavior, and `In-Game Sigil` shows the name displayed on the card.
 
-
 Note that most abilities have  values that dosen't match their sigil names.
 
-
-
 | Icon                                                                                                 | Value                         | In-Game Sigil            | Description                                                                                                                                                                      |
-| ---------------------------------------------------------------------------------------------------- | ----------------------------- | ------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|------------------------------------------------------------------------------------------------------|-------------------------------|--------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | ![Energy Gun](https://ingoh.net/inscryption/textures/src/pixelability_activated_dealdamage.png)      | `ActivatedDealDamage`         | Energy Gun               | When activated for 1 energy, deals 1 damage to opposing card                                                                                                                     |
 | ![Disentomb](https://ingoh.net/inscryption/textures/src/pixelability_activated_drawskeleton.png)     | `ActivatedDrawSkeleton`       | Disentomb                | When activated for 1 bone, draws a skeleton                                                                                                                                      |
 | ![Bonehorn](https://ingoh.net/inscryption/textures/src/pixelability_activated_energytobones.png)     | `ActivatedEnergyToBones`      | Bonehorn                 | Converts energy to bones                                                                                                                                                         |
@@ -269,7 +266,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Vanilla Appearance Behaviour
 
 | Value                 | Description                                              |
-| --------------------- | -------------------------------------------------------- |
+|-----------------------|----------------------------------------------------------|
 | AddSnelkDecals        | Cycles through the Base Games Long Elk Decals.           |
 | AlternatingBloodDecal | Renders card with blood decals                           |
 | AnimatedPortrait      | Used for animated portraits                              |
@@ -291,7 +288,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Regions
 
 | Region             | Description                    |
-| ------------------ | ------------------------------ |
+|--------------------|--------------------------------|
 | Alpine             | This is The Trappers Region    |
 | Forest             | This is The Prospectors Region |
 | Midnight           | This is Leshy's area in ACT 1. |
@@ -302,7 +299,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Languages
 
 | Suffix | Language              |
-| ------ | --------------------- |
+|--------|-----------------------|
 | fr     | French                |
 | it     | Italian               |
 | de     | German                |
@@ -318,7 +315,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Mask Types
 
 | Value      | Description |
-| ---------- | ----------- |
+|------------|-------------|
 | Prospector | 0           |
 | Woodcarver | 1           |
 | Angler     | 2           |
@@ -329,7 +326,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Mask Model Types
 
 | Value      | Description |
-| ---------- | ----------- |
+|------------|-------------|
 | Prospector | 1           |
 | Woodcarver | 2           |
 | Angler     | 3           |
@@ -342,7 +339,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## AscensionChallenge
 
 | Value             | Description                                                                     |
-| ----------------- | ------------------------------------------------------------------------------- |
+|-------------------|---------------------------------------------------------------------------------|
 | AllTotems         | The All Totem Battles Challenge                                                 |
 | BossTotems        | The Bosses have a Totem Challenge                                               |
 | BaseDifficulty    | The Increase Difficulty Challenge                                               |
@@ -362,7 +359,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## CardChoicesType
 
 | Value     | Description                       |
-| --------- | --------------------------------- |
+|-----------|-----------------------------------|
 | Random    | The Random Card Choices Type      |
 | Cost      | The Cost Based Card Choices Type  |
 | Tribe     | The Tribe Based Card Choices Type |
@@ -371,7 +368,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## CursorType
 
 | Value      |
-| ---------- |
+|------------|
 | Default    |
 | Sacrifice  |
 | Place      |
@@ -397,7 +394,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## DiskCardWeapon
 
 | Value    |
-| -------- |
+|----------|
 | Default  |
 | Sniper   |
 | Turret   |
@@ -408,7 +405,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Emotion
 
 | Value    |
-| -------- |
+|----------|
 | Laughter |
 | Anger    |
 | Quiet    |
@@ -418,7 +415,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## EyeBallState
 
 | Value   |
-| ------- |
+|---------|
 | Default |
 | Missing |
 | Wizard  |
@@ -427,7 +424,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## FillerAbilities
 
 | Value       |
-| ----------- |
+|-------------|
 | None        |
 | Banding     |
 | Skulduggery |
@@ -435,7 +432,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## GameState
 
 | Value               |
-| ------------------- |
+|---------------------|
 | CardBattle          |
 | Map                 |
 | FirstPerson3D       |
@@ -444,7 +441,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## ItemType
 
 | Value      |
-| ---------- |
+|------------|
 | Consumable |
 | Upgrade    |
 | Survival   |
@@ -454,7 +451,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## MechanicsConcept
 
 | Value                       |
-| --------------------------- |
+|-----------------------------|
 | Bones                       |
 | BuildingTotems              |
 | TribeBasedCardChoice        |
@@ -523,7 +520,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## MenuAction
 
 | Value             |
-| ----------------- |
+|-------------------|
 | NewGame           |
 | Continue          |
 | Options           |
@@ -539,7 +536,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## PageRangeType
 
 | Value     |
-| --------- |
+|-----------|
 | Abilities |
 | Cards     |
 | Unique    |
@@ -550,7 +547,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## ResourceType
 
 | Value  |
-| ------ |
+|--------|
 | Blood  |
 | Bone   |
 | Energy |
@@ -559,7 +556,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## SidePileFigurine
 
 | Value        |
-| ------------ |
+|--------------|
 | Squirrel     |
 | Bee          |
 | Aquasquirrel |
@@ -567,7 +564,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## StoryEvent
 
 | Value                            |
-| -------------------------------- |
+|----------------------------------|
 | BasicTutorialCompleted           |
 | TutorialRunCompleted             |
 | SacrificedStoatInTutorial        |
@@ -745,13 +742,13 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## TotemEffect
 
 | Value           |
-| --------------- |
+|-----------------|
 | CardGainAbility |
 
 ## TraderTarotType
 
 | Value      |
-| ---------- |
+|------------|
 | TheFool    |
 | TheTower   |
 | TheEmpress |
@@ -761,7 +758,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## Trigger
 
 | Value                   |
-| ----------------------- |
+|-------------------------|
 | Upkeep                  |
 | Drawn                   |
 | PlayFromHand            |
@@ -787,7 +784,7 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## View
 
 | Value                   |
-| ----------------------- |
+|-------------------------|
 | Hand                    |
 | Default                 |
 | DeckSelection           |
@@ -846,6 +843,6 @@ Note that most abilities have  values that dosen't match their sigil names.
 ## ViewLockState
 
 | Value    |
-| -------- |
+|----------|
 | Locked   |
 | Unlocked |
