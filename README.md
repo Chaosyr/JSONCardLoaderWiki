@@ -1,6 +1,6 @@
-# JSONCardLoaderWiki
+# JSON and CSV Loader Nightly Wiki
 
-This is the OFFICIAL Repository for the JSONCardLoaderWiki, the Wiki is for [MADH95/JSONLoader](https://github.com/MADH95/JSONLoader).
+This is the OFFICIAL Repository for the JSON and CSV Loader Nightly Wiki, the Wiki is for [MADH95/JSONLoader](https://github.com/MADH95/JSONLoader/tree/Refactor-JSONLoader-3).
 
 Please adhere to existing standards for how you should format pages!
 
@@ -13,8 +13,16 @@ To update this Wiki just send a Pull Request, I'll update both whenever I approv
 
 ## Contributing
 
-1. Go to [JSONCardLoaderWiki](https://github.com/Chaosyr/JSONCardLoaderWiki/)
+1. Go to [JSONCardLoaderWiki](https://github.com/Chaosyr/JSONCardLoaderWiki/tree/Nightly)
 2. Clone the repository locally via [Git](https://git-scm.com/) or [GitHub Desktop](https://desktop.github.com/download/)
 3. Add or Update the Documentation you wish
 4. Commit the Changes with a Descriptive Title and Description (GitHub Desktop is more ideal for formatting these)
 5. Send a PR of your changes back to this Repository from your fork.
+
+## Navigation
+
+* [JSON and CSV Loader Nightly Home](https://github.com/Chaosyr/JSONCardLoaderWiki/wiki)
+* [Installation](https://github.com/Chaosyr/JSONCardLoaderWiki/wiki/Installation)
+* [Tools](https://github.com/Chaosyr/JSONCardLoaderWiki/wiki/Tools)
+* [JSON and CSV Loader API Documentation](https://github.com/Chaosyr/JSONCardLoaderWiki/wiki/JSON-and-CSV-Loader-API-Documentation)
+* [JSON and CSV Loader Maintainer Documentation](https://github.com/Chaosyr/JSONCardLoaderWiki/wiki/JSON-and-CSV-Loader-Maintainer-Documentation)
