@@ -4,7 +4,7 @@ This version of JSONLoader supports several types of data, and supports Modded L
 #### JSONLoaderV2 Cards:
 JSONLoaderV2 Cards support allows you to well make JSON Based Cards for the Game, these can be pretty complex but overall relatively simple.
 
-The following are all of the fields available for JSONLoaderV1 Cards and what they do:
+The following are all of the fields available for JSONLoaderV2 Cards and what they do:
 
 ##### Card Fields
 
@@ -48,4 +48,24 @@ The following are all of the fields available for JSONLoaderV1 Cards and what th
 |        `decals`         | This is a list of all the Decal Images in which will be stacked onto your card, this is localized to your Plugins Folder. It's your job to keep it organized, do it as you would these 'JLDR' files. This must be a PNG File and must be a '125x190' image.                                                                                                                                                                                         | String Array |
 |  `extensionProperties`  | This is a list of all Extended Properties to this Card. You'll need to supply your own Field:Value pairs according to the mods specifications. If using the Editor, hit edit by the property to edit this Object.                                                                                                                                                                                                                                   |       Object |
 
-To Utilize Extension Properties, add a `"{Field}": "{Value}"`, for each Extension Property you wish to have on the card, note it must be within the fields `{}` braces.
+#### JSONLoaderV2 Starter Decks
+
+JSONLoaderV2 Starter Decks support allows you to well make JSON Based Starter Decks for the Game, these are incredibly simple to make.
+
+The following are all of the fields available for JSONLoaderV2 Starter Decks and what they do:
+
+##### Main Starter Deck Object
+|   Key   | Description                            |                  Type |
+|:-------:|----------------------------------------|----------------------:|
+| `decks` | A List of all Decks this Object holds. | StarterDeckInfo Array |
+
+##### StarterDeckInfo Object
+|      Key       | Description                                                                                                                                                                                                    |         Type |
+|:--------------:|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------:|
+| `fieldsToEdit` | Any items applied within this field will be used for overwriting the In-Game deck associated with the field 'name'.                                                                                            | String Array |
+|     `name`     | The In-Code name for the Starter Deck, when referencing this Starter Deck, it is the piece that comes after the 'modPrefix' field.                                                                             |       String |
+|  `modPrefix`   | The In-Code identifier for the Starter Deck, when referencing this Starter Deck, it is the piece that comes before the 'name' field.                                                                           |       String |
+|    `title`     | The Display Title for the Starter Deck, this is the name that will appear in game.                                                                                                                             |       String |
+|    `cards`     | The Full List of Cards within the Starter Deck.                                                                                                                                                                | String Array |
+| `iconTexture`  | The Path to your Starter Decks Icon, this is localized to your Plugins Folder. It's your job to keep it organized, do it as you would these 'JLDR' files. This must be a PNG File and must be a '35x44' image. |       String |
+| `unlockLevel`  | The Unlock Level of the Deck, this is used to determine what challenge level in which this Starter Deck will be unlocked.                                                                                      |      Integer |
