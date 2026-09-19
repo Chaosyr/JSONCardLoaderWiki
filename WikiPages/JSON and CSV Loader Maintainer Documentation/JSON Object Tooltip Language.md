@@ -4,6 +4,8 @@ This section goes over our Homemade `JSON Object Tooltip Language` used for crea
 #### HARD-CODED VALUES
 * REQUIRED - Mark this field as a Required field in the Schema.
 * EXCLUDED - Mark this field as something to not include in the Schema.
+* EXTENDS - Mark this field as extending the current Schema Level.
+* ALTERNATIVES - Mark this field as having Alternatives.
 
 #### VARIABLES
 All Variables will work as follows: VariableName(Definition), kinda like a KeyPairValue.
@@ -19,6 +21,7 @@ The following is a list of all Variables:
 * Maximum - Int - Used in Int - This mandates a Maximum Number.
 * AdditionalProperties - Boolean - Used in Object and Object Array - Determines whether additional properties are valid.
 * AnyOf - WOAH SEE THE SECTION BY THE SAME NAME - Used in String Array - Defines whether other variations are okay for this array.
+* AlternativeNames - String Array - Used by any Property - Indicates Alternative Names for a Given Property.
 
 If you inevitably need more as of present you'll need to code handling into the Schema and Linter.
 
@@ -31,7 +34,7 @@ An example of such would be:
 [Tooltip("REQUIRED | MinimumLength(1) | Pattern(^[a-zA-Z\\d_]+$)")]
 ```
 
-Notice the `//` in the Regex? That's because C# needs it to be escaped in quotes, but don't worry we properly escape it for JSON in `ReadDocumentationFile.EscapeJSON()`.
+Notice the `\\` in the Regex? That's because C# needs it to be escaped in quotes, but don't worry we properly escape it for JSON in `ReadDocumentationFile.EscapeJSON()`.
 
 #### AnyOf Variable
 
